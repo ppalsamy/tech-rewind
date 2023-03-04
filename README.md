@@ -1,6 +1,6 @@
 # Getting Started with App
 
-Tech Rewind is personal blog, Based on my experience I am adding content which will help me and others on the different topics.
+Tech Rewind is personal blog, Based on my experience I am adding content which will help me and others on various topics such as software development methodologies (Pair Programming, Test Driven Development, Feature Flags), Design Patterns, Design Principles, Test Automation, Java, React JS, Node JS, Python.
 ## Installed Packages
 
 `npm i react-router-dom`
