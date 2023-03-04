@@ -4,17 +4,23 @@ import Markdown from 'markdown-to-jsx';
 function ContentReader() {
 
 
-    const file_name = 'tdd.md';
+    const file_name = 'pairprogramming.md';
     const [post, setPost] = useState('');
 
     useEffect(() => {
-        import(`./markdown/${file_name}`)
-            .then(res => console.log(res))
+        import(`./posts/${file_name}`)
+            .then(res => {
+                fetch(res.default)
+                    .then(res => res.text())
+                    .then(res => setPost(res))
+            })
             .catch(err => console.log(err));
     });
 
     return (
-        <Markdown>{post}</Markdown>
+        <div>
+            <Markdown>{post}</Markdown>
+        </div>
 
     );
 }
