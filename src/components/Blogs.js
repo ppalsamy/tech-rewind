@@ -9,8 +9,8 @@ function Blogs() {
 
         <div className='main- d-flex'>
             <Nav className="flex-column" >
-                <Nav.Link href="/Blogs/Pair">Extreme Programming</Nav.Link>
-                <Nav.Link href="/Blogs/Openai">OpenAI</Nav.Link>
+                <Nav.Link href="/Blogs/Pair">Pair Programming</Nav.Link>
+                <Nav.Link href="/Blogs/Tdd">Test Driven Development</Nav.Link>
                 <Nav.Link href="/Blogs/Devops">DevOps</Nav.Link>
             </Nav>
 

@@ -10,17 +10,12 @@ function Landing() {
     return (
         <>
             <div>
-                {/* <Navbar bg="light" expand="lg" sticky="top">
-                    <Container fluid>
-                        <Navbar.Brand href="/">Tech Rewind</Navbar.Brand>
-                    </Container>
-                </Navbar> */}
                 <Navbar
                     style={{ background: 'cornflowerblue' }}
                     variant='light' expand="lg"
                     sticky="top">
                     <Container fluid>
-                        <Navbar.Brand href="/">Tech Rewind</Navbar.Brand>
+                        <Navbar.Brand href="/">TechPath</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav

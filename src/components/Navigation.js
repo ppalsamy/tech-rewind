@@ -4,8 +4,7 @@ import Blogs from "./Blogs";
 import Books from "./Books";
 import Finance from "./Finance";
 import Landing from "./Landing";
-import ContentReader from './ContentReader';
-import Openai from './Openai';
+import Article from './Article';
 
 function Navigation() {
 
@@ -32,15 +31,15 @@ function Navigation() {
                     children: [
                         {
                             path: "/Blogs/Pair",
-                            element: <About />
+                            element: <Article name='Pair_programming.md' />
                         },
                         {
-                            path: "/Blogs/Openai",
-                            element: <Openai />
+                            path: "/Blogs/Tdd",
+                            element: <Article name='tdd.md' />
                         },
                         {
                             path: "/Blogs/Devops",
-                            element: <ContentReader />
+                            element: <Article name='devops.md' />
                         },
                     ]
                 },
