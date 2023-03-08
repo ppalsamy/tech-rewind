@@ -1,11 +1,4 @@
----
-title: Pair Programming
-description: "Pair programming is a technical practice in which two engineers jointly produce one artifact together. Pair programming serves many purposes such as knowledge sharing between engineers, peer review of work produced, and to reinforce good programming principles between engineers."
-excerpt: "Pair programming is a technical practice and an excellent method to achieve: Knowledge sharing, Synchronous code review, New team member onboarding, Feature demonstration. Pair programming is an optional practice, not to be looked at as mandatory."
-publish_date: '2021-09-01'
-last_updated: "2022-03-14"
----
-
+# Pair Programming
 ## Overview
 Pair programming is a technical practice in which two engineers work together to  collaberatively produce one artifact. Usually, two engineers use one computer, sharing the keyboard. Both engineers must share their thoughts while working together.
 
@@ -69,8 +62,8 @@ Consider below when pairing up:
 
 ## Additional Resources
 
-- [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html), by Birgitta Bocker and Nina Siessegger
-- [Pair Programming Wikipedia](https://en.wikipedia.org/wiki/Pair_programming).
-- [Extreme Programming Explained: Second Edition, Embrace Change](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658), by Kent Beck and Cynthia Andres, Addison-Wesley.
-- [Clean Agile: Back to Basics](https://www.amazon.com/Clean-Agile-Basics-Robert-Martin/dp/0135781868), by Robert C. Martin, Pearson.
-- [Pair Program kata-log](https://kata-log.rocks/pair-programming)
+- <a href="https://martinfowler.com/articles/on-pair-programming.html" target="_blank" >On Pair Programming</a>, by Birgitta Bocker and Nina Siessegger
+- <a href="https://en.wikipedia.org/wiki/Pair_programming" target="_blank" >Pair Programming Wikipedia</a>.
+- <a href="https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658" target="_blank" >Extreme Programming Explained: Second Edition, Embrace Change</a>, by Kent Beck and Cynthia Andres, Addison-Wesley.
+- <a href="https://www.amazon.com/Clean-Agile-Basics-Robert-Martin/dp/0135781868" target="_blank" >Clean Agile: Back to Basics</a>, by Robert C. Martin, Pearson.
+- <a href="https://kata-log.rocks/pair-programming">Pair Program kata-log</a>
