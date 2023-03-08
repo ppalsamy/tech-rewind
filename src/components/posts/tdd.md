@@ -7,7 +7,7 @@ Test-Driven Development (TDD) is a technique for building software that guides s
 2) **Green** - Modify code to make new and existing tests pass, committing whatever sins necessary in the process to accomplish this quickly
 3) **Refactor** - Take time to make the code good
 
-![tdd life cycle](img/tdd-life-cycle.png)
+![tdd life cycle](/img/article/tdd-life-cycle.png)
 
 ### Why TDD
 
