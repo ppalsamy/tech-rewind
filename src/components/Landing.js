@@ -15,7 +15,7 @@ function Landing() {
                     variant='light' expand="lg"
                     sticky="top">
                     <Container fluid>
-                        <Navbar.Brand href="/">TechPath</Navbar.Brand>
+                        <Navbar.Brand href="/About">TechPath</Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
@@ -39,8 +39,11 @@ function Landing() {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
+
                 <div><Outlet /></div>
+
             </div>
+
         </>
     )
 }
