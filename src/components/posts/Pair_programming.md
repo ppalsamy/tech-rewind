@@ -60,10 +60,10 @@ Consider below when pairing up:
 - Leap on errors quickly and give low level instructions to the driver.
 - Let one person dominate the entire session. Pairs should be comfortable grabbing keyboard and contribute their ideas.
 
-## Additional Resources
+<!-- ## Additional Resources
 
 - <a href="https://martinfowler.com/articles/on-pair-programming.html" target="_blank" >On Pair Programming</a>, by Birgitta Bocker and Nina Siessegger
 - <a href="https://en.wikipedia.org/wiki/Pair_programming" target="_blank" >Pair Programming Wikipedia</a>.
 - <a href="https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658" target="_blank" >Extreme Programming Explained: Second Edition, Embrace Change</a>, by Kent Beck and Cynthia Andres, Addison-Wesley.
 - <a href="https://www.amazon.com/Clean-Agile-Basics-Robert-Martin/dp/0135781868" target="_blank" >Clean Agile: Back to Basics</a>, by Robert C. Martin, Pearson.
-- <a href="https://kata-log.rocks/pair-programming">Pair Program kata-log</a>
+- <a href="https://kata-log.rocks/pair-programming">Pair Program kata-log</a> -->

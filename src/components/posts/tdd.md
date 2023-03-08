@@ -102,9 +102,9 @@ As with any new learning, TDD may feel slower at first, but in return long term 
 * Leads to writing more tests and doing more refactoring than before
 * Less production errors. Less rework
 
-## Additional Resources
+<!-- ## Additional Resources
 
 * [YouTube - DevTernity 2017: Ian Cooper - TDD, Where Did It All Go Wrong](https://www.youtube.com/watch?v=EZ05e7EMOLM)
 * [YouTube - DEVOXX 2017: Effective Unit Testing by Eliotte Rusty Harold](https://www.youtube.com/watch?v=fr1E9aVnBxw)
 * [Book - Test Driven Development](https://www.goodreads.com/book/show/387190.Test_Driven_Development)
-* [Kata-log - Katas to learn on TDD](https://kata-log.rocks/tdd)
+* [Kata-log - Katas to learn on TDD](https://kata-log.rocks/tdd) -->
