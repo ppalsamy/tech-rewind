@@ -11,7 +11,7 @@ export default class Books extends Component {
                 <CardGroup>
                    
                     <Card style={{ width: '10rem' }}>
-                        <a href="#"><Card.Img src="../img/ThinkAndGrowRich.jpg" /> </a>
+                        <a href="#"><Card.Img src="../img/books/ThinkAndGrowRich.jpg" /> </a>
                         <Card.Body>
                             <Card.Title>Think and Grow Rich!</Card.Title>
                             <Card.Subtitle>By Napolean Hill</Card.Subtitle>
@@ -23,7 +23,7 @@ export default class Books extends Component {
                   
                     <br />
                     <Card style={{ width: '18rem' }}>
-                        <a href="#"><Card.Img  variant="top" src="../img/IWillTeachURich.jpg" /></a>
+                        <a href="#"><Card.Img  variant="top" src="../img/books/IWillTeachURich.jpg" /></a>
                         <Card.Body>
                             <Card.Title>I Will Teach You To Be Rich</Card.Title>
                             <Card.Subtitle>By Ramit Sethi</Card.Subtitle>
@@ -33,7 +33,7 @@ export default class Books extends Component {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <a href="#"><Card.Img variant="top" src="../img/Limitless.jpg" /></a>
+                        <a href="#"><Card.Img variant="top" src="../img/books/Limitless.jpg" /></a>
                         <Card.Body>
                             <Card.Title>Limitless: Upgrade Your Brain, Learn Anything Faster, and Unlock Your Exceptional Life</Card.Title>
                             <Card.Subtitle>By Jim Kwik</Card.Subtitle>
@@ -43,7 +43,7 @@ export default class Books extends Component {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <a href="#"><Card.Img variant="top" src="../img/ThinkLikeAMonk.jpg" /> </a>
+                        <a href="#"><Card.Img variant="top" src="../img/books/ThinkLikeAMonk.jpg" /> </a>
                         <Card.Body>
                             <Card.Title>Think Like A Monk</Card.Title>
                             <Card.Subtitle>By Jay Shetty</Card.Subtitle>
@@ -53,7 +53,7 @@ export default class Books extends Component {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <a href="#"><Card.Img variant="top" src="../img/TheLeanStartup.jpg" /></a>
+                        <a href="#"><Card.Img variant="top" src="../img/books/TheLeanStartup.jpg" /></a>
                         <Card.Body>
                             <Card.Title>The Lean Startup: How Constant Innovation Creates Radically Successful Businesses </Card.Title>
                             <Card.Subtitle>By Eric Ries</Card.Subtitle>
@@ -71,7 +71,7 @@ export default class Books extends Component {
                 <p>Software Development</p>
                 <CardGroup>
                     <Card style={{ width: '18rem' }}>
-                        <a href="#"><Card.Img variant="top" src="../img/CleanCode.jpg" /></a>
+                        <a href="#"><Card.Img variant="top" src="../img/books/CleanCode.jpg" /></a>
                         <Card.Body>
                             <Card.Title>Clean Code </Card.Title>
                             <Card.Subtitle>By Robert C. Martin</Card.Subtitle>
@@ -84,7 +84,7 @@ export default class Books extends Component {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <a href="#"><Card.Img variant="top" src="../img/Tdd.jpg" /></a>
+                        <a href="#"><Card.Img variant="top" src="../img/books/Tdd.jpg" /></a>
                         <Card.Body>
                             <Card.Title>Test Driven Development</Card.Title>
                             <Card.Subtitle>By Kent Beck</Card.Subtitle>
@@ -95,7 +95,7 @@ export default class Books extends Component {
                         </Card.Body>
                     </Card>
                     <Card style={{ width: '18rem' }}>
-                        <a href="#"><Card.Img variant="top" src="../img/TerraformUpAndRunning.jpg" /></a>
+                        <a href="#"><Card.Img variant="top" src="../img/books/TerraformUpAndRunning.jpg" /></a>
                         <Card.Body>
                             <Card.Title>Terraform: Up and Running</Card.Title>
                             <Card.Subtitle>By Yevgeniy Brikman </Card.Subtitle>
