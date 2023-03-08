@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
-import Stack from 'react-bootstrap/Stack';
+import Container from 'react-bootstrap/esm/Container';
+
 export default class Books extends Component {
     render() {
         return (
-            <Stack gap={3}>
-                <div className="bg-light border">Think and Grow Rich</div>
-                <div className="bg-light border">Think like a Monk</div>
-                <div className="bg-light border">Limitless</div>
-            </Stack>
+            <div>
+                <div></div>
+                <Container>
+                    <div className="bg-light border">Think and Grow Rich</div>
+                    <div className="bg-light border">Think like a Monk</div>
+                    <div className="bg-light border">Limitless</div>
+                </Container>
+            </div>
 
         );
     }

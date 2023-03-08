@@ -41,6 +41,14 @@ function Navigation() {
                             path: "/Blogs/Devops",
                             element: <Article name='devops.md' />
                         },
+                        {
+                            path: "/Blogs/PerfTest",
+                            element: <Article name='PerformanceTest.md' />
+                        },
+                        {
+                            path: "/Blogs/ContractTest",
+                            element: <Article name='ContractTest.md' />
+                        },
                     ]
                 },
             ]

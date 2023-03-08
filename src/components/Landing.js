@@ -25,7 +25,7 @@ function Landing() {
                                 <Nav.Link href="/Blogs" >Blogs</Nav.Link>
 
                                 <Nav.Link href="/Books">Books</Nav.Link>
-                                <Nav.Link href="/Finance">Personal Finance</Nav.Link>
+                                {/* <Nav.Link href="/Finance">Personal Finance</Nav.Link> */}
                                 <Nav.Link href="/About">About</Nav.Link>
                             </Nav>
                             <Form className="d-flex">

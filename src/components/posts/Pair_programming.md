@@ -32,7 +32,7 @@ critical issues, and to maintain team health.
       - **Ping**: Developer 1 starts writing failing test case
       - **Pong**: Develeoper 2 writes the implementation of code to make test pass and  refactor the code to make it perfect.
   - Strong style
-      >"For an idea to go from your head to the computer it MUST go through someone else's hands." - Llewellyn Falco
+      - "For an idea to go from your head to the computer it MUST go through someone else's hands." - Llewellyn Falco
 
 In strong style pairing driver does nothing that the navigator did not tell them to do. In this model the driver is novice and the navigator is more experienced. In some cases, experience person stays longer in navigator role and guides the novice.  This style is very useful for initial knowledge transfer and upskilling new members.
 
@@ -69,8 +69,8 @@ Consider below when pairing up:
 
 ## Additional Resources
 
-- [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html), by Birgitta Bocker and Nina Siessegger, 15 Jan 2020
-- [Pair Programming Wikipedia](https://en.wikipedia.org/wiki/Pair_programming), Wikimedia Foundation, 18 Dec. 2020.
-- [Extreme Programming Explained: Second Edition, Embrace Change](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658), by Kent Beck and Cynthia Andres, Addison-Wesley, 2015, pp. 42-44.
-- [Clean Agile: Back to Basics](https://www.amazon.com/Clean-Agile-Basics-Robert-Martin/dp/0135781868), by Robert C. Martin, Pearson, 2020, pp. 127-131.
+- [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html), by Birgitta Bocker and Nina Siessegger
+- [Pair Programming Wikipedia](https://en.wikipedia.org/wiki/Pair_programming).
+- [Extreme Programming Explained: Second Edition, Embrace Change](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658), by Kent Beck and Cynthia Andres, Addison-Wesley.
+- [Clean Agile: Back to Basics](https://www.amazon.com/Clean-Agile-Basics-Robert-Martin/dp/0135781868), by Robert C. Martin, Pearson.
 - [Pair Program kata-log](https://kata-log.rocks/pair-programming)
