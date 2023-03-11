@@ -3,9 +3,9 @@
 
 Test-Driven Development (TDD) is a technique for building software that guides software development by writing tests. Specifically, TDD uses a 3 step loop:
 
-1) **Red** - Introduce a test for desired functionality that fails (or doesn't compile)
-2) **Green** - Modify code to make new and existing tests pass, committing whatever sins necessary in the process to accomplish this quickly
-3) **Refactor** - Take time to make the code good
+1. **Red** - Introduce a test for desired functionality that fails (or doesn't compile)
+2. **Green** - Modify code to make new and existing tests pass, committing whatever sins necessary in the process to accomplish this quickly
+3. **Refactor** - Take time to make the code good
 
 ![tdd life cycle](/img/article/tdd-life-cycle.png)
 
