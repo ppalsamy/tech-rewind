@@ -9,15 +9,15 @@ function Blogs() {
 
         <div className='main- d-flex'>
             <Nav className="flex-column" bg="light">
-                <Nav.Link href="/Blogs/Pair">Pair Programming</Nav.Link>
-                <Nav.Link href="/Blogs/Tdd">Test Driven Development</Nav.Link>
-                <Nav.Link href="/Blogs/Devops">DevOps</Nav.Link>
+                <Nav.Link href="/blogs/pair">Pair Programming</Nav.Link>
+                <Nav.Link href="/blogs/tdd">Test Driven Development</Nav.Link>
+                {/* <Nav.Link href="/blogs/devops">DevOps</Nav.Link>
                 <Accordion>
                     <Accordion.Item eventKey='0'>
                         <Accordion.Header>Test Automation</Accordion.Header>
                         <Accordion.Body>
-                            <Nav.Link href="/Blogs/PerfTest">Performance Test</Nav.Link>
-                            <Nav.Link href="/Blogs/ContractTest">Contract Test</Nav.Link>
+                            <Nav.Link href="/blogs/perf-test">Performance Test</Nav.Link>
+                            <Nav.Link href="/blogs/contract-test">Contract Test</Nav.Link>
                         </Accordion.Body>
                     </Accordion.Item>
 
@@ -27,7 +27,7 @@ function Blogs() {
                             Automation is great way
                         </Accordion.Body>
                     </Accordion.Item>
-                </Accordion>
+                </Accordion> */}
             </Nav>
 
             <Container> <Outlet /> </Container>
