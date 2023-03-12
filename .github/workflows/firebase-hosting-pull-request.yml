@@ -9,6 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CI: ""
+    permissions:
+      id-token: write
+      contents: write
+      security-events: write
     steps:
       - uses: actions/checkout@v2
       - run: npm ci && npm run build
