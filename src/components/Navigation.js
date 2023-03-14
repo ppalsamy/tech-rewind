@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import About from "./About";
 import Blogs from "./Blogs";
 import Books from "./Books";
@@ -13,6 +13,11 @@ function Navigation() {
             path: "/",
             element: <Landing />,
             children: [
+                {
+                    index: true,
+                    element: <Navigate to="/about" replace />,
+                    // when user navigate to / it automaticly navigate to /about
+                },
                 {
                     path: "about",
                     element: <About />
@@ -30,8 +35,14 @@ function Navigation() {
                     element: <Blogs />,
                     children: [
                         {
+                            index: true,
+                            element: <Navigate to="/blogs/pair" replace />,
+                            // when user navigate to /blogs it automaticly navigate to /blogs/pair
+                        },
+                        {
                             path: "/blogs/pair",
                             element: <Article name='Pair_programming.md' />
+
                         },
                         {
                             path: "/blogs/tdd",
