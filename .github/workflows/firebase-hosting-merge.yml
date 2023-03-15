@@ -6,16 +6,17 @@ name: Deploy to Firebase Hosting on merge
   push:
     branches:
       - main
+permissions:
+  id-token: write
+  contents: write
+  security-events: write
+  pull-requests: write
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     env:
       CI: ""
-    permissions:
-      id-token: write
-      contents: write
-      security-events: write
-      pull-requests: write
+
     steps:
       - uses: actions/checkout@v2
       - run: CI=false npm ci && npm run build
