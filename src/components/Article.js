@@ -20,7 +20,7 @@ class Article extends Component {
 
     render() {
         return (
-            <div className="article">
+            <div className="article" style={{paddingRight: 400}}>
                 <Markdown children={this.state.md} />
             </div>
         )
