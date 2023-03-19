@@ -1,7 +1,6 @@
 # Pair Programming
 
 
-## Overview
 Pair programming is a software development technique in which two programmers work together on the same computer, with one taking the role of the driver and the other as the navigator. The driver writes the code, while the navigator provides guidance and feedback. This collaborative approach has become increasingly popular in recent years, as more and more software development teams adopt agile methodologies.
 
 ![Driver Navigator](/img/article/pair/driver_navigator.png)
@@ -45,4 +44,6 @@ In this blog post, we'll take a closer look at the benefits of pair programming,
 
 1. Use the Right Tools: Pair programming requires the right tools and technology to be effective. This might include screen sharing software, collaborative coding environments, and communication tools like chat or video conferencing. Few of the tools such as `CodeTogether` and `Code with me` you can use to enhance your pair programming.  
 
-In conclusion, pair programming is a powerful technique that can help software development teams to work more efficiently, produce higher quality code, and foster a collaborative and supportive work culture. By following these best practices, teams can maximize the benefits of pair programming and achieve better outcomes for their projects.
+## Conclusion
+
+ Pair programming is a powerful technique that can help software development teams to work more efficiently, produce higher quality code, and foster a collaborative and supportive work culture. By following these best practices, teams can maximize the benefits of pair programming and achieve better outcomes for their projects.

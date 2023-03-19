@@ -11,6 +11,7 @@ function Blogs() {
             <Nav className="flex-column" bg="light">
                 <Nav.Link href="/blogs/pair">Pair Programming</Nav.Link>
                 <Nav.Link href="/blogs/tdd">Test Driven Development</Nav.Link>
+                <Nav.Link href="/blogs/feature_flag">Feature Flags</Nav.Link>
                 {/* <Nav.Link href="/blogs/devops">DevOps</Nav.Link>
                 <Accordion>
                     <Accordion.Item eventKey='0'>

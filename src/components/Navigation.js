@@ -49,6 +49,10 @@ function Navigation() {
                             element: <Article name='tdd.md' />
                         },
                         {
+                            path: "/blogs/feature_flag",
+                            element: <Article name='feature_flag.md' />
+                        },
+                        {
                             path: "/blogs/devops",
                             element: <Article name='devops.md' />
                         },

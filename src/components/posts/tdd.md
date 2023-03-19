@@ -1,6 +1,5 @@
 # Test Driven Development (TDD) 
 
-## Overview
 Test Driven Development (TDD) is a software development approach that emphasizes writing tests before writing code. In this process, developers write automated tests to specify the desired behavior of a system, and then write the code necessary to pass those tests. This approach has gained popularity over the years due to its many benefits, including increased code quality, faster feedback loops, and reduced time spent on debugging.
 
 ![TDD Cycle](/img/article/tdd_cycle.png)
@@ -10,10 +9,9 @@ Here's a breakdown of the steps involved in Test Driven Development:
 
 1. **Write a failing test (<span style="color:red">*RED*</span>):** In TDD, the first step is to write a test that defines the behavior you want to see in your system. This test should initially fail because there is no code in place to satisfy it.
 
-1. **Make the test pass (<span style="color:green">*GREEN*</span>):** After writing the test, the developer writes the minimum amount of code necessary to pass the test. This code should be as simple and straightforward as possible, with no unnecessary complexity.
+1. **Make the test pass (<span style="color:green">*GREEN*</span>):** After writing the test, the developer writes the minimum amount of code necessary to pass the test. This code should be as simple and straightforward as possible, with no unnecessary complexity. Use design principle *Keep It Simple, Stupid(KISS)* that suggests that systems should be designed in the simplest way possible.   
 
-1. **Refactor the code (<span style="color:blue">*BL
-UE*</span>):** Once the test has passed, the developer refactors the code to make it more efficient, maintainable, and scalable. This ensures that the code remains clean and easy to understand as it evolves over time. Use some of design techniques such as `Don't Repeat Yourselves (DRY)` or `Duplicate Is Evil (DIE)`, try to reduce `Time Complexity`
+1. **Refactor the code (<span style="color:blue">BLUE</span>):** Once the test has passed, the developer refactors the code to make it more efficient, maintainable, and scalable. This ensures that the code remains clean and easy to understand as it evolves over time. Use some of design techniques such as `Don't Repeat Yourselves (DRY)` or `Duplicate Is Evil (DIE)`, try to reduce `Time Complexity`
 
 1. **Repeat the process:** The developer repeats this process by writing another failing test, writing the code to pass the test, and then refactoring the code. This iterative cycle helps to ensure that the code is continuously improving and meeting the desired requirements.
 
@@ -85,4 +83,6 @@ So, why use TDD? Here are some benefits:
 
 1. Easier maintenance: With TDD, code is broken down into small, testable units, making it easier to maintain and modify as the system evolves over time.
 
-In conclusion, Test Driven Development is a software development approach that emphasizes writing tests first. It can help improve code quality, reduce the risk of bugs, and increase productivity. By following a TDD approach, developers can create software that is more reliable, maintainable, and scalable.
+## Conclusion 
+
+Test Driven Development is a software development approach that emphasizes writing tests first. It can help improve code quality, reduce the risk of bugs, and increase productivity. By following a TDD approach, developers can create software that is more reliable, maintainable, and scalable.
