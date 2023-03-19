@@ -1,4 +1,8 @@
 .App {
+  text-align: left;
+}
+
+.Article {
   text-align: justify;
 }
 

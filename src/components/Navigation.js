@@ -41,7 +41,7 @@ function Navigation() {
                         },
                         {
                             path: "/blogs/pair",
-                            element: <Article name='Pair_programming.md' />
+                            element: <Article name='pair_programming.md' />
 
                         },
                         {
