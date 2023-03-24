@@ -33,18 +33,33 @@ Most of the IAC tools follows declarative approach to provision and manage the i
 ## Why Infrastructure as code is important
 
 ### **Version Control:**
-IAC code can be stored in version control systems such as Git, allowing for easy collaboration and tracking of changes to the infrastructure over time. Also Create and release versioned infrastructure.
+Since, We have the code to provision and manage the infrastructure, We need secure our code, track our changes eventually automate so minimal or no manual process involved. 
+
+We can store the code in version control systems such as Git(Github, Bitbucket, Gitlab), allowing for easy collaboration and tracking of changes to the infrastructure over time. Also Create and release versioned infrastructure.
+
 ### **Automation:** 
-IAC allows for the automated provisioning and management of infrastructure resources, reducing the need for manual configuration and reducing the risk of human error and don’t forget huge savings of Time & Effort.
+
+Once we have our code in version control, what we can do we can automate the process to provisioning and managing infrastructure resources, reducing the need for manual configuration, reducing the risk of human error and don’t forget the huge savings of Time & Effort.
+
 ### **Reusability:** 
-IAC code can be reusable, meaning that the same code can be used to provision resources in multiple environments or across multiple teams, improving consistency and reducing the need to recreate configurations.Well defined terraform will allow creation of consistent infrastructure across environments, whilst still allowing for different scaling in different environments.
+
+Let's say you are provisioning the environment for your new project such as development environment. After sometime you have to set up other environments for testing, right? Now, same code can be used to provision resources in multiple environments or across multiple teams, improving consistency and reducing the need to recreate configurations. Well defined code will allow creation of consistent infrastructure across environments, whilst still allowing for different scaling in different environments.
+
 ### **Scalability:** 
+
+Due to application's need if you need scale up or down your environments(such as development, staging and production) then you can provision the required infrastructure with consistency and ease.  
 IAC allows for the automatic scaling of resources as needed, improving the ability to handle increased traffic or workloads.
+
 ### **Disaster Recovery:** 
-IAC allows for quick recovery of resources and environments in the event of a disaster.
+
+IAC allows for quick recovery of resources and environments in the event of a disaster. This means that infrastructure can be quickly and easily recreated if it is lost or damaged, without requiring the same level of manual effort as traditional disaster recovery processes. 
+
 ### **Compliance:** 
-IAC allows for the automatic enforcement of compliance policies and regulations, improving the ability to meet regulatory requirements.
+
+IAC allows for the automatic enforcement of compliance with various regulations and standards by providing a centralized, auditable, and consistent approach to manageing infrastrucure configurations and deployments.For example, IaC can be used to enforce secure network configurations, implement encryption standards, and manage access controls. 
+
 ### **Testing:** 
+
 It gives you the ability to define new environments quickly. Either at a named environment, team or developer level. IAC allows for the creation of test environments quickly and easily, reducing the time and cost associated with testing. 
 
 ## These are a few popular choices:
@@ -56,4 +71,6 @@ It gives you the ability to define new environments quickly. Either at a named e
 - Azure Resource Manager
 - Terraform 
 
+## Conclusion
+There are many compelling reasons to adopt Infrastructure as Code in your IT operations to achieve your goals more effectively. From faster, more reliable deployments to increased efficiency and greater scalability, IaC can help.
 
