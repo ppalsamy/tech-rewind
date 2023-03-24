@@ -26,6 +26,10 @@ function Navigation() {
                     element: <Finance />
                 },
                 {
+                    path: "AppDev",
+                    element: <Appdev />
+                  },
+                {
                     path: "Blogs",
                     element: <Blogs />,
                     children: [

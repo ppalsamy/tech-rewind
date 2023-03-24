@@ -23,7 +23,7 @@ function Landing() {
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll>
                                 <Nav.Link href="/Blogs" >Blogs</Nav.Link>
-
+                                <Nav.Link href="/Appdev" >Appdev</Nav.Link>
                                 <Nav.Link href="/Books">Books</Nav.Link>
                                 {/* <Nav.Link href="/Finance">Personal Finance</Nav.Link> */}
                                 <Nav.Link href="/About">About</Nav.Link>
