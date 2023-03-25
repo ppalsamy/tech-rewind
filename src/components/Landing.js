@@ -20,8 +20,9 @@ function Landing() {
                                 className="me-auto my-2 my-lg-0"
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll>
-                                <Nav.Link href="/blogs" >Blogs</Nav.Link>
-                                <Nav.Link href="/books">Books</Nav.Link>
+                                <Nav.Link href="/Blogs" >Blogs</Nav.Link>
+                                <Nav.Link href="/Appdev" >Appdev</Nav.Link>
+                                <Nav.Link href="/Books">Books</Nav.Link>
                                 {/* <Nav.Link href="/Finance">Personal Finance</Nav.Link> */}
                                 {/* <Nav.Link href="/About">About</Nav.Link> */}
                             </Nav>
