@@ -2,36 +2,47 @@
     {
         "title": "How two modes of thinking helps to drive your development",
         "description": "Pair programming is a technical practice in which two engineers work together to  collaberatively produce one artifact. Usually, two engineers use one computer, sharing the keyboard. Both engineers must share their thoughts while working together.",
-        "img": "", 
-        "link":"/Blogs/Pair",
-        "tags": ["Appdev", "Devops"]
-    }, 
+        "img": "",
+        "link": "/blogs/pair_programming",
+        "tags": [
+            "Appdev",
+            "Devops"
+        ]
+    },
     {
         "title": "Taking a Spin with Test Driven Development",
         "description": "Test-Driven Development (TDD) is a technique for building software that guides software development by writing tests.",
-        "img": "", 
-        "link":"/Blogs/Tdd",
-        "tags": ["Appdev"]
-    }, 
+        "img": "",
+        "link": "/blogs/tdd",
+        "tags": [
+            "Appdev"
+        ]
+    },
     {
         "title": "Why you should adopt Infrastructure as code",
         "description": "Traditionally Infrastructure Provisioning done manually, need to spend lot time and effort to provision, manage infrastructure. Due to fast paced technology we need to provision, manage and maintain much faster, Infrastructure as code come to a rescue to solve this issue. ",
-        "img": "", 
-        "link":"/iac",
-        "tags": ["Devops"]
-    }, 
+        "img": "",
+        "link": "/blogs/iac_intro",
+        "tags": [
+            "Devops"
+        ]
+    },
     {
         "title": "How to provision, terminate EC2 Instance using Ansible",
         "description": "To destroy the EC2 instane that was created by the Ansible playbook, you can use the 'ec2' module's 'state' parameter with a value of 'absent'.",
-        "img": "", 
-        "link":"",
-        "tags": ["Devops"]
-    }, 
+        "img": "",
+        "link": "/blogs/ansible_ec2",
+        "tags": [
+            "Devops"
+        ]
+    },
     {
-        "title": "Design For Security",
+        "title": "How to secure your application while designing",
         "description": "Designing a system or application for security involves incorporating security considerations into the design process from the very beginning, in order to prevent vulnerabilities from arising in the first place.",
-        "img": "", 
-        "link":"",
-        "tags": ["Appdev"]
+        "img": "",
+        "link": "/blogs/design_security",
+        "tags": [
+            "Appdev"
+        ]
     }
 ]

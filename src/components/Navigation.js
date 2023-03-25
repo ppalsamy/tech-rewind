@@ -1,10 +1,9 @@
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import About from "./About";
-import Blogs from "./Blogs";
 import Books from "./Books";
-import Finance from "./Finance";
 import Landing from "./Landing";
-import Article from './Article';
+import Blogs from './Blogs';
+import BlogReader from "./BlogReader";
 
 function Navigation() {
 
@@ -26,50 +25,16 @@ function Navigation() {
                     path: "books",
                     element: <Books />
                 },
-                {
-                    path: "finance",
-                    element: <Finance />
-                },
-                {
-                    path: "AppDev",
-                    element: <Appdev />
-                },
-                {
-                    path: "Blogs",
-                    element: <Blogs />,
-                    children: [
-                        {
-                            index: true,
-                            element: <Navigate to="/blogs/pair" replace />,
-                            // when user navigate to /blogs it automaticly navigate to /blogs/pair
-                        },
-                        {
-                            path: "/blogs/pair",
-                            element: <Article name='pair_programming.md' />
 
-                        },
-                        {
-                            path: "/blogs/tdd",
-                            element: <Article name='tdd.md' />
-                        },
-                        {
-                            path: "/blogs/feature_flag",
-                            element: <Article name='feature_flag.md' />
-                        },
-                        {
-                            path: "/blogs/devops",
-                            element: <Article name='devops.md' />
-                        },
-                        {
-                            path: "/blogs/perf-test",
-                            element: <Article name='PerformanceTest.md' />
-                        },
-                        {
-                            path: "/blogs/contract-test",
-                            element: <Article name='ContractTest.md' />
-                        },
-                    ]
+                {
+                    path: "blogs",
+                    element: <Blogs />
                 },
+                {
+                    path: "blogs/:title",
+                    element: <BlogReader />,
+
+                }
             ]
         }
     ]);

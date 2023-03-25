@@ -20,7 +20,7 @@ export default class Books extends Component {
                                             <Card.Title>Think and Grow Rich!</Card.Title>
                                             <Card.Subtitle>By Napolean Hill</Card.Subtitle>
                                             <Card.Text><br />
-                                                T       hink and Grow Rich, Hill draws on stories of Andrew Carnegie, Thomas Edison, Henry Ford, and other millionaires of his generation to illustrate his principles.
+                                                Think and Grow Rich, Hill draws on stories of Andrew Carnegie, Thomas Edison, Henry Ford, and other millionaires of his generation to illustrate his principles.
                                             </Card.Text>
                                         </Card.Body>
                                     </Card>
