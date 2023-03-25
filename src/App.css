@@ -2,6 +2,10 @@
   text-align: left;
 }
 
+.Article {
+  text-align: justify;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

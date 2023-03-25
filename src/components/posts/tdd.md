@@ -1,110 +1,88 @@
-# Test-Driven Development (TDD)
-## Overview
+# Test Driven Development (TDD) 
 
-Test-Driven Development (TDD) is a technique for building software that guides software development by writing tests. Specifically, TDD uses a 3 step loop:
+Test Driven Development (TDD) is a software development approach that emphasizes writing tests before writing code. In this process, developers write automated tests to specify the desired behavior of a system, and then write the code necessary to pass those tests. This approach has gained popularity over the years due to its many benefits, including increased code quality, faster feedback loops, and reduced time spent on debugging.
 
-1. **Red** - Introduce a test for desired functionality that fails (or doesn't compile)
-2. **Green** - Modify code to make new and existing tests pass, committing whatever sins necessary in the process to accomplish this quickly
-3. **Refactor** - Take time to make the code good
+![TDD Cycle](/img/article/tdd_cycle.png)
 
-![tdd life cycle](/img/article/tdd-life-cycle.png)
+Here's a breakdown of the steps involved in Test Driven Development:
 
-### Why TDD
 
-Test Driven Development helps improve test coverage and breaks development into smaller manageable chunks. This reduces errors in production and encourages consistent developer velocity. Additionally, it helps engineers develop testable code because you are writing tests first. Built-in refactoring cycles provide an opportunity to make the code readable and help prevent technical debt from piling up and becoming unmanageable. TDD also helps with the following:
+1. **Write a failing test (<span style="color:red">*RED*</span>):** In TDD, the first step is to write a test that defines the behavior you want to see in your system. This test should initially fail because there is no code in place to satisfy it.
 
-* TDD introduces incremental checkpoints and a sense of gamification to development, where developers are motivated by a challenge reward cycle
-* Writing failing test first ensures you don't have false positives
-* Tests act as living documentation of implemented functionality
+1. **Make the test pass (<span style="color:green">*GREEN*</span>):** After writing the test, the developer writes the minimum amount of code necessary to pass the test. This code should be as simple and straightforward as possible, with no unnecessary complexity. Use design principle *Keep It Simple, Stupid(KISS)* that suggests that systems should be designed in the simplest way possible.   
 
-## TDD: Red-Green-Refactor loop breakdown
+1. **Refactor the code (<span style="color:blue">BLUE</span>):** Once the test has passed, the developer refactors the code to make it more efficient, maintainable, and scalable. This ensures that the code remains clean and easy to understand as it evolves over time. Use some of design techniques such as `Don't Repeat Yourselves (DRY)` or `Duplicate Is Evil (DIE)`, try to reduce `Time Complexity`
 
-### Red - Test Fails
+1. **Repeat the process:** The developer repeats this process by writing another failing test, writing the code to pass the test, and then refactoring the code. This iterative cycle helps to ensure that the code is continuously improving and meeting the desired requirements.
 
-Introduce a test for desired functionality that fails (or doesn't compile)
+let's deep dive into each of TDD cycle
+### **Write a failing test (<span style="color:red">*Red*</span>)**
+Writing a failing test is an important step in the Test Driven Development (TDD) process. The goal of writing a failing test is to define the behavior you want to see in your system, and ensure that the code you write later will fulfill that behavior.
 
-* Focus on meaningful tests, don't test the language
-* Find the right scope: can introduce multiple tests at a time, but make sure they are similar in scope
-* Use testing framework tools to disable tests until ready to implement
-* Write tests for new functionality incrementally, build up test complexity
-* Test interfaces instead of implementation
+Here are some best practices for writing failing tests in TDD:
 
-### Green - Test Passes
+* Define the behavior: Before writing a test, it's important to define the behavior you want to see in your system. Be as specific as possible about the expected outcome of the test.
 
-Modify code to make new and existing tests pass, committing whatever sins necessary in the process to accomplish this quickly
+* Write a test that fails: Write a test that will fail because there is no code in place to satisfy it. The test should be simple and specific, testing only one behavior at a time.
 
-* Do what is easiest to pass the tests
-* It's okay to take shortcuts, hard code values, etc.
-* Implement only against test cases and make note of future test cases to write
-* Implementation must make old and new tests pass
+* Keep it short: Failing tests should be short and focused. This will make it easier to identify the cause of the failure and fix it quickly.
 
-### Blue - Refactor
+* Don't rely on implementation details: Tests should not rely on implementation details, but rather on the behavior of the system. This will make the tests more resilient to changes in the code.
 
-This is the most important part of TDD: we now have some working code with tests that should test the behavior!
+* Write negative tests: In addition to writing positive tests that check for correct behavior, it's also important to write negative tests that check for incorrect behavior. This will help catch edge cases and ensure that the system is robust.
 
-90% of the time is spent reading code only 10% writing it.  If we want to go faster, then making the code easy to read would seem to be the obvious place. So why don't we clean up code that we know is messy? **Is it because we're afraid we'll break it?**
+* Run the test: After writing the test, run it to ensure that it fails. This will confirm that the test is written correctly and will pass once the code is implemented.
 
-But if we have the tests, we can:
+### **Make the test pass (<span style="color:green">*Green*</span>)**
 
-* Be reasonably sure that the code is not broken, or that we'll detect the breakage immediately.
-* Become fearless about making changes.
-* Clean messy code or unclean structure without fear
-* Make code malleable again.
-* Make software becomes soft again
+Making the test pass is a critical step in the Test Driven Development (TDD) process. The goal of this step is to write code that satisfies the behavior defined in the test. 
 
-**Take time to make the code GREAT!**
+Here are some best practices for making tests pass in TDD:
 
-When it is time to clean the code, please consider the following activities:
+* Write the minimum code required to make the test pass: The code written to pass the test should be minimal, only implementing the behavior needed to pass the test. This helps avoid over-engineering and keeps the code simple.
 
-* Remove duplication (DRY)
-* Sanitize code smells
-* Apply patterns and idioms
-* Ensure comments for readability (but remember comments degrade faster than code - can we re-write in a way that avoids the need for a comment)
-* Lint and format for syntax and style
-* Make variable and method names consistent and meaningful
-* Refactor for appropriate time complexity
+* Refactor the code: Once the test passes, refactor the code to improve its design and eliminate any duplication or other issues. Refactoring should be done in small steps, ensuring that the code remains functional at all times.
 
-### What to Test
+* Run all tests: After making the test pass and refactoring the code, run all tests to ensure that the changes have not broken any existing functionality.
 
-Write simple tests first and build up in complexity
+* Keep the code clean: It's important to write clean, readable code that follows best practices. This includes using meaningful variable and method names, commenting where necessary, and following coding standards.
 
-* **Trivial:** Start with the simplest functionality. What happens when you call methods with default arguments? Zero? Empty?
-* **Functional:** Focus on happy path next. What is the core business logic?
-* **Edge Cases:** Consider all possible scenarios. Are there boundary conditions?
-* **Errors:** What happens when things break? Are errors and invalid inputs handled?
+* Focus on one test at a time: TDD involves writing tests one at a time, and then making them pass. It's important to stay focused on one test at a time, and not move on to the next until the current test is passing.
 
-Also clean up trivial tests, those that test the language or 3rd party libraries should have their own tests!
+* Don't skip tests: Skipping tests can lead to incomplete or unreliable code. It's important to write and pass all tests, even if they seem trivial or redundant.
 
-#### Remember the good qualities
+### **Refactor (<span style="color:blue">*Blue*</span>)**
+Refactoring is an important process in software development, which involves improving the design of existing code without changing its functionality. The goal of refactoring is to make code more maintainable, scalable, and efficient.
 
-1. They protect against regression
-2. They are not resistant to code refactoring
-3. They provide fast feedback
-4. They are maintainable
+Here are some design techniques that can be used during the refactoring process:
 
-Do not test trivial code, typical examples not to test:
+* Extract Methods: Extracting methods from large, complex methods can improve the readability and maintainability of the code. It also makes the code more modular, allowing for easier testing and reuse.
 
-* A getter that returns a count from a list / map / set - that the count works, you do not need to test the language
-* Pojo using a library like Lombok to generate the getters and setters.
+* Rename Variables and Methods: Renaming variables and methods to more descriptive names can improve the readability of the code, making it easier for other developers to understand.
 
-### And finally
+* Replace Magic Numbers with Constants: Magic numbers are hard-coded values in the code that have no explanation. Replacing these values with constants can make the code more understandable and maintainable.
 
-**Pair Programming -** pair with a teammate and switch off between writing tests and implementing functionality
+* Simplify Conditionals: Complex conditional statements can be hard to understand and debug. Simplifying them by breaking them down into smaller, more manageable pieces can make the code more readable and maintainable.
 
-**Peer Reviews -** formalize feature requirements as a set of test cases, PR for shared understanding before implementing against those tests
+* Remove Duplicate Code: Duplication is a common source of errors and can make code difficult to maintain. Removing duplicate code and creating reusable functions or classes can improve the overall quality of the code.
 
-### TDD is an investment
+* Use Design Patterns: Design patterns are commonly used solutions to recurring design problems. Using them during the refactoring process can improve the structure of the code and make it easier to maintain.
 
-As with any new learning, TDD may feel slower at first, but in return long term velocity increases:
+* Break Large Classes into Smaller Ones: Large classes can be difficult to understand and maintain. Breaking them down into smaller, more focused classes can make the code more modular and easier to manage.
 
-* There is an initial friction to learning and applying the methodology
-* Requires a different mindset
-* Leads to writing more tests and doing more refactoring than before
-* Less production errors. Less rework
+## Why TDD
+So, why use TDD? Here are some benefits:
 
-<!-- ## Additional Resources
+1. Improved code quality: By writing tests first, developers can ensure that their code is working correctly from the start. This can help catch issues early in the development process, reducing the risk of bugs and making the code more robust.
 
-* [YouTube - DevTernity 2017: Ian Cooper - TDD, Where Did It All Go Wrong](https://www.youtube.com/watch?v=EZ05e7EMOLM)
-* [YouTube - DEVOXX 2017: Effective Unit Testing by Eliotte Rusty Harold](https://www.youtube.com/watch?v=fr1E9aVnBxw)
-* [Book - Test Driven Development](https://www.goodreads.com/book/show/387190.Test_Driven_Development)
-* [Kata-log - Katas to learn on TDD](https://kata-log.rocks/tdd) -->
+1. Faster feedback loops: With TDD, feedback is received almost immediately after writing code. This allows developers to identify issues quickly and fix them before they become bigger problems.
+
+1. Increased productivity: TDD can help developers become more productive by reducing the amount of time spent on debugging and testing.
+
+1. Better collaboration: TDD can promote better collaboration between team members by providing a shared understanding of the desired behavior of the system. 
+
+1. Easier maintenance: With TDD, code is broken down into small, testable units, making it easier to maintain and modify as the system evolves over time.
+
+## Conclusion 
+
+Test Driven Development is a software development approach that emphasizes writing tests first. It can help improve code quality, reduce the risk of bugs, and increase productivity. By following a TDD approach, developers can create software that is more reliable, maintainable, and scalable.

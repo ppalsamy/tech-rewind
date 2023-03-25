@@ -1,5 +1,6 @@
 import Markdown from "markdown-to-jsx";
 import { Component } from "react";
+import Container from "react-bootstrap/esm/Container";
 
 class Article extends Component {
     constructor(props) {
@@ -9,7 +10,7 @@ class Article extends Component {
 
     async componentDidMount() {
         const articleName = this.props.name;
-        const file = await import(`./posts/${articleName}`);
+        const file = await import(`./posts/${articleName}.md`);
         const response = await fetch(file.default);
         const text = await response.text();
 
@@ -20,9 +21,11 @@ class Article extends Component {
 
     render() {
         return (
-            <div className="article">
-                <Markdown children={this.state.md} />
-            </div>
+            <Container>
+                <Container>
+                    <Markdown children={this.state.md} />
+                </Container>
+            </Container>
         )
     }
 }
