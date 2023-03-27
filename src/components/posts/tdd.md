@@ -2,7 +2,7 @@
 
 Test Driven Development (TDD) is a software development approach that emphasizes writing tests before writing code. In this process, developers write automated tests to specify the desired behavior of a system, and then write the code necessary to pass those tests. This approach has gained popularity over the years due to its many benefits, including increased code quality, faster feedback loops, and reduced time spent on debugging.
 
-![TDD Cycle](/img/article/tdd_cycle.png)
+<img alt="TDD Cycle" src="/img/article/tdd_cycle.png" class="img-thumbnail">
 
 Here's a breakdown of the steps involved in Test Driven Development:
 
