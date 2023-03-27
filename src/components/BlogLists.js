@@ -13,8 +13,9 @@ function BlogLists() {
                             <Card border="light" style={{ align: 'center', width: '100%' }}>
                                 <Card.Img src={data.img} />
                                 <Card.Body>
-                                    <Link to={data.link} >
-                                        <Card.Title>{data.title}</Card.Title> </Link>
+                                    <Link to={data.link} style={{ textDecoration: 'none' }}>
+                                        <Card.Title>{data.title}</Card.Title> 
+                                        <Card.SubTitle>{data.updated_date}</Card.SubTitle> </Link>
                                     <Card.Text>
                                         <div className="flex-column">{data.description}</div>
                                     </Card.Text>

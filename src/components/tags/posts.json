@@ -4,6 +4,8 @@
         "description": "Pair programming is a technical practice in which two engineers work together to  collaberatively produce one artifact. Usually, two engineers use one computer, sharing the keyboard. Both engineers must share their thoughts while working together.",
         "img": "",
         "link": "/blogs/pair_programming",
+        "created_date":"03-27-2023",
+        "updated_date":"03-27-2023",
         "tags": [
             "Appdev",
             "Devops"
@@ -14,6 +16,8 @@
         "description": "Test-Driven Development (TDD) is a technique for building software that guides software development by writing tests.",
         "img": "",
         "link": "/blogs/tdd",
+        "created_date":"03-27-2023",
+        "updated_date":"03-27-2023",
         "tags": [
             "Appdev"
         ]
@@ -23,6 +27,8 @@
         "description": "Traditionally Infrastructure Provisioning done manually, need to spend lot time and effort to provision, manage infrastructure. Due to fast paced technology we need to provision, manage and maintain much faster, Infrastructure as code come to a rescue to solve this issue. ",
         "img": "",
         "link": "/blogs/iac_intro",
+        "created_date":"03-27-2023",
+        "updated_date":"03-27-2023",
         "tags": [
             "Devops"
         ]
@@ -32,6 +38,8 @@
         "description": "To destroy the EC2 instane that was created by the Ansible playbook, you can use the 'ec2' module's 'state' parameter with a value of 'absent'.",
         "img": "",
         "link": "/blogs/ansible_ec2",
+        "created_date":"03-27-2023",
+        "updated_date":"03-27-2023",
         "tags": [
             "Devops"
         ]
@@ -41,6 +49,8 @@
         "description": "Designing a system or application for security involves incorporating security considerations into the design process from the very beginning, in order to prevent vulnerabilities from arising in the first place.",
         "img": "",
         "link": "/blogs/design_security",
+        "created_date":"03-27-2023",
+        "updated_date":"03-27-2023",
         "tags": [
             "Appdev"
         ]
