@@ -2,12 +2,13 @@
 
 As software applications grow more complex, developers are finding it increasingly challenging to manage and deploy new features. One solution to this problem is the use of feature flags. In this blog, we'll explore what feature flags are, how they work, and the benefits they offer for software development teams.
 
-![feature flag](/img/article/feature_flag.png)
+<img alt="Feature Flag" src="/img/article/feature_flag.png" class="img-thumbnail">
+
 ## What are Feature Flags?
 
 Feature flags are a software development technique that allows developers to turn features on or off at runtime. By using feature flags, developers can deploy new features to production environments without affecting end-users. A feature flag acts as a switch that can be turned on or off to control whether a feature is visible or not. 
 
-![Traffic Lights](/img/article/ff_traffic_lights.jpeg)
+<img alt="Traffic Lights" src="/img/article/ff_traffic_lights.jpeg" class="img-thumbnail">
 
 It's like a traffic light that can be turned green or red, depending on whether you want to allow traffic to flow or not.
 

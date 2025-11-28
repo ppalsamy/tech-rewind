@@ -3,7 +3,7 @@
 
 Pair programming is a software development technique in which two programmers work together on the same computer, with one taking the role of the driver and the other as the navigator. The driver writes the code, while the navigator provides guidance and feedback. This collaborative approach has become increasingly popular in recent years, as more and more software development teams adopt agile methodologies.
 
-![Driver Navigator](/img/article/pair/driver_navigator.png)
+<img alt="Driver Navigator" src="/img/article/pair/driver_navigator.png" class="img-thumbnail">
 
 In this blog post, we'll take a closer look at the benefits of pair programming, as well as some best practices for implementing this technique.
 
